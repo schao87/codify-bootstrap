@@ -1,0 +1,153 @@
+@font-face{
+	font-family: officina;
+	src: url(officina.ttf);
+}
+.body{
+	font-family: arial, sans;
+	color: #444;
+}
+.logo{
+	font-family: officina;
+	font-size: 35px;
+	color: white !important;
+	letter-spacing: 1px;
+}
+.navbar{
+	background: #232F3E;
+	border-radius: 0;
+	height: 100px;
+	min-width: 640px;
+}
+.navRow{
+	margin-left: 0;
+	margin-right: 0;
+}
+.navCol{
+	padding: 0;
+}
+.logoWrap{
+	float: left;
+	width: 300px;
+}
+.searchbar{
+	width: 580px;
+	float: left;
+	/*margin-left: 10px;*/
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.searchbtn{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	float: left;
+	display: block;
+}
+.navbar-form{
+	border: 0;
+	padding: 0;
+	box-shadow: none;
+	float: left;
+	margin-left: 10px;
+}
+.prime{
+	color: blue;
+	text-decoration: underline;
+	width: 200px;
+	position: absolute;
+	margin: 35px 0 0 56px;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+}
+.cart{
+	float: right;
+}
+.greeting{
+	color: #FC9A18;
+	display: block;
+	float: left;
+}
+.cartImg{
+	color: white;
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 5px;
+}
+.carousel{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.carousel-indicators{
+	margin-bottom: -10px;
+}
+.carousel-indicators li{
+	background: black;
+	opacity: .5;
+}
+.carousel-indicators .active{
+	background: black;
+	opacity: 1;
+}
+.item a h4{
+	color: white;
+}
+.skateLogo{
+	position: absolute;
+	top: 0;
+	width: 95%;
+	margin-left: 5%;
+	text-align: left;
+	color: #444;
+}
+.skateboardImg{
+	display: block;
+	margin: 0 auto;
+}
+.skateLogo h2{
+	font-size: 35px;	
+	margin-bottom: 0;
+}
+.skateLogo h3{
+	font-size: 20px;
+	margin-top: 0;
+}
+.smallphone{
+	background: #b7b7b7;
+}
+.smallphoneImg{
+	display: block;
+	margin: 0 auto;
+}
+.bigphoneImg{
+	display: block;
+	margin: 0 auto;
+}
+.xlLogo{
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	color: #FC9A18;
+}
+.miniLogo{
+	position: absolute;
+	color: #fc9a18;
+	top: 25px;
+	width: 95%;
+	text-align: right;
+}
+a.thumbnail{
+	text-decoration: none;
+}
+.caption{
+	text-align: center;
+}
+.footer{
+	background: #f8f8f8;
+	border-top: 1px solid #dbdbdb;
+}
+.foot-group{
+	margin-top: 20px;
+
+}
