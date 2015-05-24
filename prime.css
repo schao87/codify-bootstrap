@@ -13,6 +13,8 @@
   width: 320px;
   height: 485px;
   position: relative;
+  background: url(warehouse.jpg);
+  background-position: 0px -200px;
 }
 .bodyWrap{
   width: 320px;
@@ -261,4 +263,37 @@
 }
 .rightTire{
   margin: 0 83px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.padOff{
+  padding: 0;
+}
+.primeHero{
+  height: 485px;
+  background-color: #4883A1;
+  background: rgb(60,110,135);
+  background: -moz-linear-gradient(left, rgba(60,110,135,1) 0%, rgba(83,136,160,1) 41%, rgba(83,136,160,1) 60%, rgba(62,119,149,1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(60,110,135,1)), color-stop(41%,rgba(83,136,160,1)), color-stop(60%,rgba(83,136,160,1)), color-stop(100%,rgba(62,119,149,1)));
+  background: -webkit-linear-gradient(left, rgba(60,110,135,1) 0%,rgba(83,136,160,1) 41%,rgba(83,136,160,1) 60%,rgba(62,119,149,1) 100%);
+  background: -o-linear-gradient(left, rgba(60,110,135,1) 0%,rgba(83,136,160,1) 41%,rgba(83,136,160,1) 60%,rgba(62,119,149,1) 100%);
+  background: -ms-linear-gradient(left, rgba(60,110,135,1) 0%,rgba(83,136,160,1) 41%,rgba(83,136,160,1) 60%,rgba(62,119,149,1) 100%);
+  background: linear-gradient(to right, rgba(60,110,135,1) 0%,rgba(83,136,160,1) 41%,rgba(83,136,160,1) 60%,rgba(62,119,149,1) 100%);
+}
+.primeHero h2{
+  font-family: 'officina';
+  color: white;
+  display: block;
+  margin: 2px;
+  float: left;
+  font-size: 35px;
+}
+.primeLogo{
+  margin: 10px;
+  float: left;
+}
+.primeLogo img{
+  margin: 29px 0px 0 -53px;
+  position: absolute;
 }

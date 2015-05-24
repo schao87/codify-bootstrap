@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-	
+
 	var prime = new TimelineMax();
 		prime.to($(".forearm"), .4, {marginTop:'-35px', delay: 1, ease: Bounce.easeOut})
 			.to($('.hands'), .4, {marginTop:'-35px', ease: Bounce.easeOut})
@@ -26,6 +26,8 @@ $( document ).ready(function(){
 			.to($('.thighs'), .4, {marginTop: '58px', ease: Bounce.easeOut}, 'bounceUp')
 			.to($('.lights'), .4, {opacity: '1'});
 
-
+			$('.wrap').on('click', function(){
+				prime.restart();
+			});
 
 });
