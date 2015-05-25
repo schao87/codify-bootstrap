@@ -164,6 +164,7 @@
   position: relative;
   float: left;
   margin: 10px 10px;
+  border-radius: 3px;
 }
 .pelvis{
   width: 140px;
@@ -272,6 +273,7 @@
 }
 .primeHero{
   height: 485px;
+  color: white;
   background-color: #4883A1;
   background: rgb(60,110,135);
   background: -moz-linear-gradient(left, rgba(60,110,135,1) 0%, rgba(83,136,160,1) 41%, rgba(83,136,160,1) 60%, rgba(62,119,149,1) 100%);
@@ -289,11 +291,35 @@
   float: left;
   font-size: 35px;
 }
-.primeLogo{
+.primeLogo, .primeHero h3, .primeHero h4, .primeHero h5{
   margin: 10px;
   float: left;
+  color: white;
 }
 .primeLogo img{
   margin: 29px 0px 0 -53px;
   position: absolute;
+}
+.primeHero h3{
+  display: block;
+  font-size: 35px;
+}
+.primeBtn{
+  display: inline-block;
+  color: black !important;
+  height: 50px;
+  width: 150px;
+  border-radius: 4px;
+  border-color: #a88734 #9c7e31 #846a29;
+  background: #f0c14b;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none !important;
+  padding: .5em 1em;
+  margin: 20px 27%;
+}
+.primetruck{
+  overflow: hidden;
 }
