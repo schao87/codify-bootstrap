@@ -13,8 +13,8 @@
   width: 320px;
   height: 485px;
   position: relative;
-  /*background: url(warehouse.jpg);*/
-  /*background-position: 0px -200px;*/
+  background: url(warehouse.jpg);
+  background-position: 0px -200px;
 }
 .bodyWrap{
   width: 320px;
@@ -128,14 +128,19 @@
 .abs{
   height: 60px;
   width: 148px;
-  background: #C21718;
   border-top: 30px solid #c9c9c9;
-  border-left: 10px solid white;
-  border-right: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   position: relative;
   z-index: 50;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.redAbs{
+  position: absolute;
+  height: 30px;
+  width: 128px;
+  background: #C21718;
 }
 .grille{
   width: 49px;
