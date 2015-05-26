@@ -13,8 +13,8 @@
   width: 320px;
   height: 485px;
   position: relative;
-  background: url(warehouse.jpg);
-  background-position: 0px -200px;
+  /*background: url(warehouse.jpg);*/
+  /*background-position: 0px -200px;*/
 }
 .bodyWrap{
   width: 320px;
@@ -52,6 +52,11 @@
   border-radius: 5px;
   position: relative;
   z-index:7;
+}
+.shoulder img{
+  display: block;
+  position: relative;
+  margin: -40px 2px;
 }
 .stack{
   height: 83px;
