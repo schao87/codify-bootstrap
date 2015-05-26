@@ -271,6 +271,10 @@
 .padOff{
   padding: 0;
 }
+.divider{
+  height: 44px;
+  border-top: 1px solid #bababa;
+}
 .primeHero{
   height: 485px;
   color: white;
@@ -300,7 +304,7 @@
   margin: 29px 0px 0 -53px;
   position: absolute;
 }
-.primeHero h3{
+.primeHero h3, .reliable h3, .playlist h3{
   display: block;
   font-size: 35px;
 }
@@ -322,4 +326,14 @@
 }
 .primetruck{
   overflow: hidden;
+}
+.reliable h3, .playlist h3{
+  margin: 10px;
+}
+.reliable h4, .playlist h4{
+  color: black;
+  margin: 10px;
+  float: left;
+  font-size: 15px;
+  font-weight: 300;
 }
