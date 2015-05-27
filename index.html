@@ -32,21 +32,19 @@
               <span class="icon-bar"></span>
             </button> -->
             <div class="row navRow">
-              <div class="col-xs-12 navCol">
+              <div class="col-xs-12 col-md-2 navCol">
                 <div class='logoWrap'>
                   <a class="navbar-brand logo" href="index.html">nile<img src="arrow.png"></a>
                   <a href="prime.html" class="prime">Try Optimus Prime</a>
                 </div>
-                <div class='cart'>
+                <div class='cart hidden-md hidden-lg'>
                   <h5 class="greeting">Hello, Guy!</h5>
                   <a href="#">
                     <span class="glyphicon glyphicon-shopping-cart cartImg" aria-hidden="true"></span>
                   </a>
                 </div>
-              </div>
-            </div> <!-- row -->
-            <div class="row navRow">
-                <div class="col-xs-12 navCol">
+               </div>
+                <div class="col-md-10 navCol hidden-xs hidden-sm">
                     <form class="navbar-form" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control searchbar" placeholder="Search For Things You Don't Need">
@@ -55,14 +53,27 @@
                     </div>
                   </form>
                 </div>
+              
+            </div> <!-- row -->
+            <div class="row navRow">
+                <div class="col-xs-12 navCol hidden-md hidden-lg">
+                    <form class="navbar-form" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control searchbar" placeholder="Search For Things You Don't Need">
+                    
+                        <button type="submit" class="btn btn-default searchbtn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                  </form>
+                </div>
+                <div class='cart hidden-xs hidden-sm'>
+                  <h5 class="greeting">Hello, Guy!</h5>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-shopping-cart cartImg" aria-hidden="true"></span>
+                  </a>
+                </div>
             </div>
             
           </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            
-          </div> -->
         </div><!-- /.container-fluid -->
       </nav>
       <div class="container-fluid">

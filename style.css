@@ -18,6 +18,10 @@
 	height: 100px;
 	min-width: 640px;
 }
+.container-fluid > .navbar-header{
+	width: 100%;
+	margin: 0;
+}
 .navRow{
 	margin-left: 0;
 	margin-right: 0;
@@ -27,14 +31,29 @@
 }
 .logoWrap{
 	float: left;
-	width: 300px;
+	width: 150px;
 }
 .searchbar{
-	width: 580px;
+	width: 550px;
 	float: left;
 	/*margin-left: 10px;*/
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
+}
+@media(min-width: 768px){
+	.searchbar{
+		width: 680px !important;
+	}
+}
+@media(min-width: 1024px){
+	.searchbar{
+		width: 750px !important;
+	}
+}
+@media(min-width: 1366px){
+	.searchbar{
+		width: 1000px !important;
+	}
 }
 .searchbtn{
 	border-bottom-left-radius: 0;
@@ -52,13 +71,19 @@
 .prime{
 	color: blue;
 	text-decoration: underline;
-	width: 200px;
+	width: 150px;
 	position: absolute;
 	margin: 35px 0 0 56px;
 	display: block;
 	font-size: 13px;
 	font-weight: bold;
 }
+@media(min-width: 768px){
+	.prime{
+		margin: 35px 0 0 45px;
+	}
+}
+
 .cart{
 	float: right;
 }
