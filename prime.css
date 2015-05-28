@@ -13,7 +13,16 @@
   width: 320px;
   height: 485px;
   position: relative;
-  
+}
+@media(min-width: 768px){
+  .wrap{
+    margin-left: 10%;
+  }
+}
+@media(min-width: 1024px){
+  .wrap{
+    margin-left: 15%;
+  }
 }
 .warehouse{
   background: url(warehouse.jpg);
@@ -343,10 +352,21 @@
 .reliable h3, .playlist h3{
   margin: 10px;
 }
+@media(min-width: 768px){
+  .iphone{
+    margin-left: 10%;
+  }
+}
+@media(min-width: 1024px){
+  .iphone{
+    margin-left: 20%;
+  }
+}
 .reliable h4, .playlist h4{
   color: black;
   margin: 10px;
   float: left;
   font-size: 15px;
   font-weight: 300;
+  line-height: 20px;
 }

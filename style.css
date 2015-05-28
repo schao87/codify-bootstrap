@@ -176,3 +176,71 @@ a.thumbnail{
 	margin-top: 20px;
 
 }
+.productTitle p{
+	font-size: 40px;
+	text-align: left;
+	display: block;
+}
+ .productTitle a{
+ 	display: block;
+ 	font-size: 25px;
+ 	text-decoration: none;
+}
+.prodRating, .prodRating:hover{
+	color: yellow;
+}
+.prodInfo{
+	margin: 15px;
+	font-size: 20px;
+	max-width: 610px;
+}
+.price{
+	color: red;
+}
+.available, .orderTime{
+	color: green;
+}
+.addCart{
+	display: block;
+	height: 50px;
+	width: 400px;
+	color: black;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: left;
+	background: -moz-linear-gradient(#F4D383,#efbf48);
+  	background: -webkit-gradient(#F4D383,#efbf48);
+  	background: -webkit-linear-gradient(#F4D383,#efbf48);
+  	background: -o-linear-gradient(#F4D383,#efbf48);
+  	background: -ms-linear-gradient(#F4D383,#efbf48);
+  	background: linear-gradient(#F4D383,#efbf48);
+}
+.cartBtnImg{
+	display: block;
+	float: left;
+	font-size: 25px;
+	color: white;
+	margin: 0 15px;
+}
+.wishlist{
+	display: block;
+	height: 50px;
+	width: 400px;
+	color: black;
+	margin: 20px auto 0;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 25px;
+	background: -moz-linear-gradient(#f7f8fa,#e7e9ec);
+  	background: -webkit-gradient(#f7f8fa,#e7e9ec);
+  	background: -webkit-linear-gradient(#f7f8fa,#e7e9ec);
+  	background: -o-linear-gradient(#f7f8fa,#e7e9ec);
+  	background: -ms-linear-gradient(#f7f8fa,#e7e9ec);
+  	background: linear-gradient(#f7f8fa,#e7e9ec);
+}
+.arrowRight{
+	float: right;
+	padding-top: 3px;
+}
