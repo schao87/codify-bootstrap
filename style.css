@@ -228,7 +228,7 @@ a.thumbnail{
 	height: 50px;
 	width: 400px;
 	color: black;
-	margin: 20px auto 0;
+	margin: 20px auto;
 	border-radius: 5px;
 	font-size: 20px;
 	text-align: left;
@@ -243,4 +243,36 @@ a.thumbnail{
 .arrowRight{
 	float: right;
 	padding-top: 3px;
+}
+.sectionTitles{
+	font-size: 25px;
+	margin-top: 10px;
+}
+table {
+  border-collapse: collapse;
+  min-width: 610px;
+}
+td {
+  padding: 5px 15px;
+  /*float: left;*/
+  display: block;
+}
+tr{
+	border: 1px solid #cecfd5;
+}
+tbody{
+	border: 1px solid #cecfd5;
+}
+.review{
+	margin-bottom: 20px;
+}
+.reviewWrap{
+	margin-bottom: 20px;
+}
+.topBtn, .topBtn:hover{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	width: 100%;
+	display: block;
 }
