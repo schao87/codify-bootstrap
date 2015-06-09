@@ -45,6 +45,8 @@
 	border-top-left-radius: 0;
 	float: left;
 	display: block;
+	background: #FC9A18;
+	border-color: #FC9A18;
 }
 .navbar-form{
 	border: 0;
@@ -63,13 +65,14 @@
 	font-size: 13px;
 	font-weight: bold;
 }
-.cart{
-	float: right;
-}
+
 .greeting{
 	color: #FC9A18;
 	display: block;
 	float: left;
+}
+.cart{
+	float: right;
 }
 .cartImg{
 	color: white;
@@ -264,6 +267,38 @@ tbody{
 .username{
 	color: blue;
 }
+
+.navList li{
+	display: inline-block;
+	/*float: left;*/
+	padding: 14px;
+	color:#CCCCCC;
+}
+.navList a{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+.shopBy{
+	float: left;
+	color: white;
+	line-height: 14px;
+	padding-top: 9px;
+}
+.shopByArrow{
+	font-size: 10px;
+  	padding: 3px;
+}
+.shopBy:hover{
+	text-decoration: none;
+	color: white;
+}
+.nav-sm-txt{
+	font-size: 13px;
+}
+.nav-lg-txt{
+	font-size: 15px;
+	font-weight: bolder;
+}
 @media(min-width: 768px){
 	.prime{
 		margin: 35px 0 0 45px;
@@ -274,7 +309,7 @@ tbody{
 }
 @media(min-width: 1024px){
 	.searchbar{
-		width: 750px !important;
+		width: 550px !important;
 	}
 	.addCart, .wishlist{
 		width: 310px;
@@ -292,9 +327,23 @@ tbody{
 	.prodInfo p{
 		font-size: 15px;
 	}
+	.nav-selection{
+		float: left;
+		width: 100%;
+	}
+	.navList{
+		display: block;
+		float: left;
+		margin-left: 40px;
+	}
 }
 @media(min-width: 1366px){
 	.searchbar{
-		width: 1000px !important;
+		width: 800px !important;
+	}
+	.navList{
+		display: block;
+		float: left;
+		margin-left: 105px;
 	}
 }
